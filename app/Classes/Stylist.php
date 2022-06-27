@@ -14,6 +14,7 @@
         private $min_price;
         private $max_price;
         
+        
         function __construct($id,$name,$email,$address,$birthday,$sex,$phone,$post,$icon,$min_price,$max_price)
         {
             $this->id = $id;
